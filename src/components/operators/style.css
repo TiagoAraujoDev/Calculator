@@ -1,0 +1,40 @@
+.plus-operator,
+.multiple-operator,
+.minus-operator,
+.divider-operator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 5rem;
+  height: 5rem;
+  
+  /* margin: 1.5rem; */
+  padding: 1rem;
+  background-color: #77298f;
+  color: #d2d2d2;
+  font-size: 18px;
+
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+.equal-operator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 5rem;
+  height: 5rem;
+
+  /* margin: 1.5rem; */
+  padding: 1rem;
+  background-color: #77298f;
+  color: #d2d2d2;
+  font-size: 18px;
+
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}

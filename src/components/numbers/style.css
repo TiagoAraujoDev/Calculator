@@ -1,0 +1,18 @@
+.number-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 5rem;
+  height: 5rem;
+  
+  /* margin: 1.5rem; */
+  padding: 1rem;
+  background-color: #121212;
+  color: #fff;
+  font-size: 18px;
+
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}

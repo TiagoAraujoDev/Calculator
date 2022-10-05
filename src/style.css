@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+}
+
+.calculator {
+  width: 32rem;
+  height: 50rem;
+  background-color: #d5d5d5;
+  padding-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2.9rem;
+  row-gap: 3.0rem;
+}
+
